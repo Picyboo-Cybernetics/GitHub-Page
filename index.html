@@ -1,0 +1,163 @@
+<!-- /index.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Picyboo GitHub · Open Source Projects</title>
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
+    <link rel="alternate icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png" />
+    <link rel="alternate icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
+    <link rel="mask-icon" href="assets/icons/safari-pinned-tab.svg" color="#00d9ff" />
+    <link rel="manifest" href="assets/icons/site-manifest.webmanifest" />
+    <meta name="theme-color" content="#0d1117" />
+
+    <!-- SEO Meta -->
+    <meta name="description" content="Open-source implementations: quantum algorithms, neural architectures, cryptographic protocols. Production code and research prototypes." />
+    <link rel="canonical" href="https://picyboo-cybernetics.github.io/" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/variables.css" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/typography.css" />
+    <link rel="stylesheet" href="styles/layout.css" />
+    <link rel="stylesheet" href="styles/components.css" />
+    <link rel="stylesheet" href="styles/animations.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header">
+      <nav class="container">
+        <a href="#" class="nav-brand">
+          <img src="https://picyboo.com/pub/assets/images/PBC-Y-White.svg" alt="Picyboo" class="logo-icon" />
+          <span>picyboo/github</span>
+        </a>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#projects" class="nav-link active">Repositories</a></li>
+          <li><a href="https://picyboo.com" class="nav-link" target="_blank">picyboo.com</a></li>
+        </ul>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <!-- Hero -->
+      <section class="hero" id="hero">
+        <div class="container">
+          <div class="hero-content">
+            <h1 class="hero-title">
+              Open Source Projects
+              <span class="text-gradient">Quantum · AI · Cryptography</span>
+            </h1>
+            <p class="hero-description">
+              Production implementations, research prototypes, and developer tools. All repositories under permissive open-source licenses for integration and contribution.
+            </p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">
+                <i class="fas fa-code-branch"></i> View Repositories
+              </a>
+              <a href="https://github.com/Picyboo-Cybernetics" class="btn btn-secondary" target="_blank">
+                <i class="fab fa-github"></i> GitHub Organization
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section class="section" id="projects">
+        <div class="container">
+          <div class="section-header">
+            <div class="section-label">
+              <i class="fas fa-folder-open"></i> Public Repositories
+            </div>
+            <h2 class="section-title">Projects</h2>
+            <p class="section-description">
+              Each repository includes implementation code, technical documentation, and integration examples for specific algorithmic challenges.
+            </p>
+          </div>
+
+          <div class="projects-list" id="projectsList">
+            <!-- Populated by JavaScript -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Stats -->
+      <section class="section section--dark" id="stats">
+        <div class="container">
+          <div class="section-header">
+            <div class="section-label">
+              <i class="fas fa-chart-line"></i> Overview
+            </div>
+            <h2 class="section-title">GitHub Stats</h2>
+          </div>
+
+          <div class="stats-grid" id="statsGrid">
+            <!-- Populated by JavaScript -->
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <div class="footer-logo">
+              <img src="https://picyboo.com/pub/assets/images/PBC-Y-White.svg" alt="Picyboo" class="logo-icon" style="width: 28px; height: 28px; display: inline-block; vertical-align: middle;" />
+              <span style="font-family: var(--font-mono); font-weight: 600; font-size: 1.25rem; color: var(--text-primary);">picyboo/github</span>
+            </div>
+            <p class="footer-description">
+              Open-source implementations for quantum computing, AI systems, and cryptographic protocols.
+            </p>
+          </div>
+          <div class="footer-column">
+            <h4 class="footer-title">Repositories</h4>
+            <nav class="footer-nav">
+              <a href="#project-hnqa">HNQA</a>
+              <a href="#project-msa">MSA</a>
+              <a href="#project-niep">NIEP</a>
+              <a href="#project-qreduct">Q-Reduct</a>
+              <a href="#project-fta">FinTrace Atlas</a>
+            </nav>
+          </div>
+          <div class="footer-column">
+            <h4 class="footer-title">Resources</h4>
+            <nav class="footer-nav">
+              <a href="https://github.com/Picyboo-Cybernetics" target="_blank">GitHub Organization</a>
+              <a href="https://doi.org/10.5281/zenodo" target="_blank">Papers</a>
+              <a href="https://picyboo.net" target="_blank">Sandbox</a>
+              <a href="https://picyboo.com" target="_blank">picyboo.com</a>
+            </nav>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="footer-copyright">
+            © 2025 Picyboo Cybernetics Inc. · Open source under MIT
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/config.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/components/navigation.js"></script>
+    <script src="js/components/projects.js"></script>
+    <script src="js/components/stats.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

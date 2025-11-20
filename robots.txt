@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://picyboo-cybernetics.github.io/sitemap.xml
